@@ -1,0 +1,49 @@
+{
+  "name": "reactLoadSvsDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-import": "^1.13.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "compression-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jed": "^1.1.1",
+    "postcss": "^8.4.14",
+    "postcss-cssnext": "^3.1.1",
+    "postcss-loader": "^7.0.0",
+    "postcss-preset-env": "^7.6.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-encoding-plugin": "^0.3.1",
+    "qunitjs": "2.4.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.18.0",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "jquery": "^3.6.0",
+    "openseadragon": "^4.0.0",
+    "react-echarts-map-china": "^0.1.9",
+    "react-slick": "^0.29.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "slick-carousel": "^1.8.1",
+    "xdm": "^3.4.0"
+  }
+}
